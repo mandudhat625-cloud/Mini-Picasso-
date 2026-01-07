@@ -1,115 +1,42 @@
+# grbl-servo
+grbl 0.9i with Servo motor support
 
-Mini Picasso 🎨🛠️
+GRBL 0.9i with servo motor support.
+Use the PIN D11 to drive the servo. 
+Use the commands M03 Sxxx (xxx between 0 and 255) to rotate the servo between 0-180.
+The command M05 turn the servo to zero degrees.
 
-A Desktop CNC Drawing & Paper-Cutting Machine
+you can change the pulse duration in the file spindle_control.c:
 
-Overview
+define RC_SERVO_SHORT     15       // Timer ticks for 0.6ms pulse duration  (9 for 0.6ms)
 
-Mini Picasso is my first major hands-on technical project. It is a compact desktop CNC machine designed to draw accurate diagrams, patterns, and perform light paper cutting. The goal of this project is to understand how CNC machines work by building one from scratch using basic mechanical, electronic, and software components.
+define RC_SERVO_LONG      32       // Timer ticks for 2.5 ms pulse duration  (39 for 2.5ms)     
 
-This machine will also be used as a tool for future projects, allowing me to create precise drawings, templates, and small parts instead of relying on manual methods.
+define RC_SERVO_INVERT     1     // Uncomment to invert servo direction
 
+If you want to have the servo working from 0 --> 180 degrees change RC_SERVO_SHORT and put 9, RC_SERVO_LONG and put 39
+If you want invert the servo direction uncomment the line above.
 
----
+I tested the code very well with 328p (Arduino Uno, Duemilanove etv), not with 2560 (Arduino Mega), but I think it would work well also with the Mega.
 
-What Mini Picasso Can Do
+-------------------------------------------------------------------
 
-Draw precise diagrams and patterns
+The link for GRBL vanilla is: http://github.com/grbl/grbl
 
-Convert digital designs (G-code) into physical motion
+Grbl is a no-compromise, high performance, low cost alternative to parallel-port-based motion control for CNC milling. It will run on a vanilla Arduino (Duemillanove/Uno) as long as it sports an Atmega 328.
 
-Lift and lower a pen or tool using a servo mechanism
+The controller is written in highly optimized C utilizing every clever feature of the AVR-chips to achieve precise timing and asynchronous operation. It is able to maintain up to 30kHz of stable, jitter free control pulses.
 
-Perform light cutting on paper or thin materials
+It accepts standards-compliant g-code and has been tested with the output of several CAM tools with no problems. Arcs, circles and helical motion are fully supported, as well as, all other primary g-code commands. Macro functions, variables, and most canned cycles are not supported, but we think GUIs can do a much better job at translating them into straight g-code anyhow.
 
+Grbl includes full acceleration management with look ahead. That means the controller will look up to 18 motions into the future and plan its velocities ahead to deliver smooth acceleration and jerk-free cornering.
 
+Licensing: Grbl is free software, released under the GPLv3 license.
 
----
+For more information and help, check out our Wiki pages! If you find that the information is out-dated, please to help us keep it updated by editing it or notifying our community! Thanks!
 
-How It Works (High Level)
+Lead Developer [2011 - Current]: Sungeun(Sonny) K. Jeon, Ph.D. (USA) aka @chamnit
 
-NEMA 17 stepper motors control the X and Y axes
+Lead Developer [2009 - 2011]: Simen Svale Skogsrud (Norway). aka The Originator/Creator/Pioneer/Father of Grbl.
 
-Threaded rods convert motor rotation into linear motion
-
-Arduino UNO + CNC Shield (GRBL) interprets G-code
-
-Servo motor controls pen/tool up–down movement
-
-12V power supply provides stable power to the system
-
-
-
----
-
-Current Project Status
-
-Component selection finalized
-
-CNC electronics and controller planned
-
-Learning GRBL firmware and CNC motion basics
-
-Mechanical layout and axis design in progress
-
-
-(This repository will be updated as the build progresses.)
-
-
----
-
-What I Will Do After Funding
-
-Assemble the CNC electronics and motors
-
-Build the mechanical frame and axis system
-
-Test motor movement and accuracy
-
-Upload photos, videos, wiring diagrams, and code
-
-Share learnings and improvements openly
-
-
-
----
-
-Learning Goals
-
-Through this project, I aim to learn:
-
-Stepper motor control and motion systems
-
-CNC firmware (GRBL) and G-code
-
-Mechanical design using lead screws and frames
-
-Hardware–software integration
-
-Precision manufacturing concepts
-
-
-
----
-
-Repository Structure
-
-/docs   → Design sketches, diagrams, and documentation  
-/code   → CNC control and test code  
-BOM.md  → Bill of materials (parts list)
-
-
----
-
-Why This Project Matters
-
-Mini Picasso is not a one-time build. It is a long-term learning tool that will support many future hardware projects by enabling accurate, repeatable, and precise fabrication.
-
-
----
-
-License
-
-This project is open-source and shared for learning purposes.
-
-
+The link for GRBL vanilla is: http://github.com/grbl/grbl
