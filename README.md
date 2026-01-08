@@ -97,7 +97,8 @@ Repository Structure
  documentation
 [I will add /docs in the folder as soon as I get parts for building the project]  
 /code   → CNC control and test code  
-BOM.md  → Bill of materials (parts list)[This file is currently made in code folder because I don't have access to a laptop so I have made in repostry in mobile and you can't make root files on mobile]
+BOM.md  → Bill of materials (parts list)
+[This file is currently made in code folder because I don't have access to a laptop so I have made in repostry in mobile and you can't make root files on mobile]
 
 
 ---
