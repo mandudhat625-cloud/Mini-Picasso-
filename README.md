@@ -94,10 +94,10 @@ Precision manufacturing concepts
 Repository Structure
 
 /code/docs   → Design sketches, diagrams, and documentation
-[I will add /docs in the folder as soon as I get parts for building the project]  
+[I will add /docs in the folder as soon as I recive parts for building the project]  
 /code   → CNC control and test code  
 /code/BOM.md  → Bill of materials (parts list)
-[This file is currently made in code folder because I don't have access to a laptop so I have made in repostry in mobile and you can't make root files on mobile]
+[This file is currently made in code folder because this repostry is made in mobile and I am not able to create root files on my mobile]
 
 
 ---
