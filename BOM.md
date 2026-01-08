@@ -8,8 +8,8 @@ This document lists all the major components required to build **Mini Picasso**,
 
 | Item | Specification | Quantity | Approx. Cost (₹) | Purchase Link |
 |-----|--------------|----------|------------------|---------------|
-| Arduino UNO R3 | Compatible board | 1 | 800–900 | https://amzn.in/d/5eOKB42 |
-| CNC Shield V3 | GRBL compatible | 1 | 800–900 | https://amzn.in/d/5eOKB42 |
+| Arduino UNO R3 | Compatible board | 1 | 400–500 | https://amzn.in/d/5eOKB42 |
+| CNC Shield V3 | GRBL compatible | 1 | 300–400 | https://amzn.in/d/5eOKB42 |
 | Stepper Motor | NEMA 17, ~4 kg·cm | 2 | 1500–1600 | https://amzn.in/d/buwM4LV |
 | Stepper Driver | A4988 / DRV8825 | 2–4 | Included / — | https://amzn.in/d/5eOKB42 |
 | Micro Servo | MG90S metal gear | 1 | 250–300 | https://amzn.in/d/iA0TuJN |
