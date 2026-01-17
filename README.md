@@ -22,6 +22,20 @@ It helps visualize the machine before physical assembly.
 
 ---
 
+## Electronics Overview
+
+Mini Picasso does not use a custom PCB.  
+It uses an Arduino UNO with a CNC Shield (GRBL) to control the motion.
+
+![Electronics Diagram](docs/electronics-diagram.png)
+
+- CNC Shield drives two NEMA 17 stepper motors for X and Y axes.
+- A servo motor controls the pen/tool up and down movement.
+- A 12V DC power supply powers the Arduino and stepper motors.
+- All components are connected via standard jumper wires as shown in the diagram.
+
+---
+
 What Mini Picasso Can Do
 
 Draw precise diagrams and patterns
