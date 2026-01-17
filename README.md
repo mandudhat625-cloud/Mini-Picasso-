@@ -17,7 +17,8 @@ stepper motors, linear rods, and pen holder.
 
 ![Mini Picasso CAD Design](docs/CAD.png)
 
-This CAD image represents the planned mechanical layout before physical assembly.
+This CAD-style render represents the mechanical layout of Mini Picasso, including the 2-axis motion system, stepper motors, linear rods, and pen/tool holder. 
+It helps visualize the machine before physical assembly.
 
 ---
 
