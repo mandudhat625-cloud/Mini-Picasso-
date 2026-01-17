@@ -8,6 +8,16 @@ Mini Picasso is my first major hands-on technical project. It is a compact deskt
 
 This machine will also be used as a tool for future projects, allowing me to create precise drawings, templates, and small parts instead of relying on manual methods.
 
+---
+
+## Design Images
+
+Below is the current CAD-style design of **Mini Picasso** showing the 2-axis CNC mechanism,
+stepper motors, linear rods, and pen holder.
+
+![Mini Picasso CAD Design](docs/CAD.png)
+
+This CAD image represents the planned mechanical layout before physical assembly.
 
 ---
 
