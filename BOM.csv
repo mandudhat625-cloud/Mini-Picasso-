@@ -1,10 +1,10 @@
-Category,Item,Specification,Quantity,Approx Cost INR,Purchase Link
-Electronics,Arduino UNO R3,Compatible board,1,400-500,https://amzn.in/d/5eOKB42
-Electronics,CNC Shield V3,GRBL compatible,1,300-400,https://amzn.in/d/5eOKB42
-Electronics,Stepper Motor,"NEMA 17, ~4 kg·cm",2,1500-1600,https://amzn.in/d/buwM4LV
-Electronics,Stepper Driver,A4988 or DRV8825,2-4,Included or -,https://amzn.in/d/5eOKB42
-Electronics,Micro Servo,MG90S metal gear,1,250-300,https://amzn.in/d/iA0TuJN
-Electronics,Power Supply,12V 2A DC adapter,1,250-300,https://amzn.in/d/ava6Zi3
-Electronics,Jumper Caps,Mini shorting caps,1 pack,100-150,https://amzn.in/d/8Nq9e48
-Mechanical,Threaded Rod,"M6, ~200 mm",2,450-500,https://amzn.in/d/a15KYWC
-Mechanical,Couplers,Motor–rod coupler,2,150-200,https://amzn.in/d/1U5JgYC
+category,item,specification,quantity,approx_cost_inr,purchase_link
+electronics,Arduino UNO R3,Compatible board,1,400-500,https://amzn.in/d/5eOKB42
+electronics,CNC Shield V3,GRBL compatible,1,300-400,https://amzn.in/d/5eOKB42
+electronics,Stepper Motor,"NEMA 17 ~4 kg·cm",2,1500-1600,https://amzn.in/d/buwM4LV
+electronics,Stepper Driver,A4988 or DRV8825,2-4,Included,https://amzn.in/d/5eOKB42
+electronics,Micro Servo,MG90S metal gear,1,250-300,https://amzn.in/d/iA0TuJN
+electronics,Power Supply,12V 2A DC adapter,1,250-300,https://amzn.in/d/ava6Zi3
+electronics,Jumper Caps,Mini shorting caps,1 pack,100-150,https://amzn.in/d/8Nq9e48
+mechanical,Threaded Rod,"M6 ~200 mm",2,450-500,https://amzn.in/d/a15KYWC
+mechanical,Couplers,Motor-rod coupler,2,150-200,https://amzn.in/d/1U5JgYC
