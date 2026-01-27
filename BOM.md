@@ -1,0 +1,32 @@
+# Bill of Materials (BOM)
+
+This document lists all the major components required to build **Mini Picasso**, a desktop CNC drawing and light paper-cutting machine. Prices are approximate and may vary.
+
+---
+
+## Electronics
+
+| Item | Specification | Quantity | Approx. Cost (₹) | Purchase Link |
+|-----|--------------|----------|------------------|---------------|
+| Arduino UNO R3 | Compatible board | 1 | 400–500 | https://amzn.in/d/5eOKB42 |
+| CNC Shield V3 | GRBL compatible | 1 | 300–400 | https://amzn.in/d/5eOKB42 |
+| Stepper Motor | NEMA 17, ~4 kg·cm | 2 | 1500–1600 | https://amzn.in/d/buwM4LV |
+| Stepper Driver | A4988 / DRV8825 | 2–4 | Included / — | https://amzn.in/d/5eOKB42 |
+| Micro Servo | MG90S metal gear | 1 | 250–300 | https://amzn.in/d/iA0TuJN |
+| Power Supply | 12V 2A DC adapter | 1 | 250–300 | https://amzn.in/d/ava6Zi3 |
+| Jumper Caps | Mini shorting caps | 1 pack | 100–150 | https://amzn.in/d/8Nq9e48 |
+
+---
+
+## Mechanical Components
+
+| Item | Specification | Quantity | Approx. Cost (₹) | Purchase Link |
+|-----|--------------|----------|------------------|---------------|
+| Threaded Rod | M6, ~200 mm | 2 | 450–500 | https://amzn.in/d/a15KYWC |
+| Couplers | Motor–rod coupler | 2 | 150–200 | https://amzn.in/d/1U5JgYC |
+
+
+## Notes
+- Prices are estimates based on local availability.
+- Some components (wires, screws) may already be available and not require purchase.
+- Final cost depends on frame material and sourcing method.
